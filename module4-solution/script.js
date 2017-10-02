@@ -5,16 +5,13 @@
 
         var firstLetter = names[i].charAt(0);
         firstLetter = firstLetter.toLowerCase();
-        console.log(firstLetter);
 
         if (firstLetter === "j") {
             byeSpeaker.speak(names[i]);
-            console.log("=== j");
         }
         else {
             hellowSpeaker.speak(names[i]);
-            console.log("not j");
-        }
+                    }
     }
 })();
 
